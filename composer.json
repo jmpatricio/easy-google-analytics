@@ -1,0 +1,25 @@
+{
+    "name": "jmpatricio/easy-google-analytics",
+    "description": "",
+    "authors": [
+        {
+            "name": "Joao Patricio",
+            "email": "jmpatricio@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "google/apiclient": "1.1.*",
+        "nesbot/carbon" : "~1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Jmpatricio\\EasyGoogleAnalytics\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
