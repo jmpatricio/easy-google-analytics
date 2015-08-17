@@ -1,6 +1,7 @@
 {
     "name": "jmpatricio/easy-google-analytics",
     "description": "",
+	"license" : "MIT",
     "authors": [
         {
             "name": "Joao Patricio",
