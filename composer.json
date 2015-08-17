@@ -1,7 +1,10 @@
 {
     "name": "jmpatricio/easy-google-analytics",
     "description": "",
-	"license" : "MIT",
+    "keywords": ["analytics", "laravel", "google"],
+    "homepage": "https://github.com/jmpatricio/easy-google-analytics",
+    "type": "package",
+    "license": "MIT",
     "authors": [
         {
             "name": "Joao Patricio",
