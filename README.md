@@ -1,4 +1,4 @@
-# Essy Google Analytics
+# Easy Google Analytics
 Laravel Package to connect Google Analytics
 ---
 [![Latest Stable Version](https://poser.pugx.org/jmpatricio/easy-google-analytics/v/stable)](https://packagist.org/packages/jmpatricio/easy-google-analytics)
