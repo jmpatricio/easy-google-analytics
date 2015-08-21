@@ -6,6 +6,13 @@ Laravel Package to connect Google Analytics
 [![Code Climate](https://codeclimate.com/github/jmpatricio/easy-google-analytics/badges/gpa.svg)](https://codeclimate.com/github/jmpatricio/easy-google-analytics)
 [![License](https://poser.pugx.org/jmpatricio/easy-google-analytics/license)](https://packagist.org/packages/jmpatricio/easy-google-analytics)
 
+## Changelog
+
+* 1.0.4
+ * Added new users metric
+ * Duplicate code removed
+ * PHP Docs improved
+ * Code Style fixed
 
 ## Instalation
 
