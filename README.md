@@ -8,7 +8,7 @@ Laravel Package to connect Google Analytics
 
 ## Changelog
 
-* 1.0.4
+* 1.0.4 | 2015-08-21
  * Added new users metric
  * Duplicate code removed
  * PHP Docs improved
