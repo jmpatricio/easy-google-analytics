@@ -165,7 +165,6 @@ class Connector
         $fromDate = $this->getFromDateDefault($fromDate);
         $toDate = $this->getToDefaultDate($toDate);
 
-
         return $this->analytics->data_ga->get($this->analyticsIds, $fromDate->format('Y-m-d'), $toDate->format('Y-m-d'),
             $metrics, $options);
     }
