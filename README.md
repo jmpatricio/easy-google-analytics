@@ -120,4 +120,3 @@ $serviceResponse = $connector->getRT('rt:activeUsers',['dimensions'=>'rt:country
 ```
 		
 		
-
