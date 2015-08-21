@@ -193,12 +193,8 @@ class Connector
      * @return \Google_Service_Analytics_GaData|null
      * @since  1.0
      */
-    public function getGA(Carbon $fromDate = null, Carbon $toDate = null, $metrics = null, $options = [])
+    public function getGA(Carbon $fromDate = null, Carbon $toDate = null, $metrics, $options = [])
     {
-        if ( !$metrics ) {
-            return null;
-        }
-
         $fromDate = $this->getFromDateDefault($fromDate);
         $toDate = $this->getToDefaultDate($toDate);
 
@@ -219,11 +215,8 @@ class Connector
      * @return \Google_Service_Analytics_GaData|null
      * @since  1.0
      */
-    public function getMCF(Carbon $fromDate = null, Carbon $toDate = null, $metrics = null, $options = [])
+    public function getMCF(Carbon $fromDate = null, Carbon $toDate = null, $metrics, $options = [])
     {
-        if ( !$metrics ) {
-            return null;
-        }
 
         $fromDate = $this->getFromDateDefault($fromDate);
         $toDate = $this->getToDefaultDate($toDate);
